@@ -1,0 +1,10 @@
+version: '3'
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ./build/api/Dockerfile
+    ports:
+      - 8080:8080
+    expose:
+      - 8080
