@@ -1,8 +1,8 @@
 package main
 
 import (
-	"desafio/src/service"
 	"github.com/gin-gonic/gin"
+	"github.com/luanadantaas/roman-numbers-api-go/src/service"
 )
 
 func main() {

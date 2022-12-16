@@ -2,7 +2,7 @@ package entity
 
 type Number struct {
 	Number string `json:"number"`
-	Value  string `json:"value"`
+	Value  int    `json:"value"`
 }
 
 type ApiResponse struct {
